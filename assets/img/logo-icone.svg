@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 130" fill="none" stroke="#D6487A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Casinha (aberta embaixo, por onde passa o caule) -->
+  <path d="M38 112H17q-7 0-7-7V37L50 8l40 29v68q0 7-7 7H62"/>
+  <!-- Flor em camadas -->
+  <path d="M50 30c-6 6-6 16 0 20 6-4 6-14 0-20z"/>
+  <path d="M50 50c-12-4-20-12-18-18 8 0 16 8 18 18zM50 50c12-4 20-12 18-18-8 0-16 8-18 18z"/>
+  <path d="M50 64c-16-2-28-10-28-18 10-2 24 6 28 18zM50 64c16-2 28-10 28-18-10-2-24 6-28 18z"/>
+  <path d="M50 77c-16 0-30-6-32-14 12-4 28 2 32 14zM50 77c16 0 30-6 32-14-12-4-28 2-32 14z"/>
+  <!-- Caule e folhas -->
+  <path d="M50 77v49"/>
+  <path d="M50 100c-6-6-14-8-20-6 6 6 14 8 20 6zM50 109c6-6 14-8 20-6-6 6-14 8-20 6z"/>
+</svg>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kits de Casamento | Sua Festa, Nossos Sonhos</title>
+<meta name="description" content="Veja os nossos kits de decoração de casamento para retirar e montar. Escolha o seu e fale com a gente.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kits de Casamento · Sua Festa, Nossos Sonhos">
+<meta property="og:description" content="Veja os nossos kits de decoração de casamento para retirar e montar. Escolha o seu e fale com a gente.">
+<meta name="theme-color" content="#FFF8F4">
+<link rel="icon" type="image/svg+xml" href="../assets/img/logo-icone.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1;1,9..144,300..600,0..100,0..1&family=Sora:wght@400;500;600;700&family=Josefin+Sans:wght@300&display=swap">
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body data-page="categoria" data-cat="casamento" data-base="../">
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="../" aria-label="Sua Festa, Nossos Sonhos — todos os eventos">
+      <img class="brand__logo" src="../assets/img/logo-icone.svg" alt="" width="32" height="42">
+      <span class="brand__text"><span class="brand__name">Sua Festa…</span><span class="brand__name">Nossos Sonhos</span></span>
+    </a>
+    <a class="header-cta" data-wa="geral" href="#" target="_blank" rel="noopener"><span>Falar com a Mariana</span></a>
+  </div>
+</header>
+
+<main>
+  <section class="cat-hero">
+    <div class="container">
+      <div class="crumbs">
+        <a class="back" href="../">← Todos os eventos</a>
+        <button type="button" class="share" id="share">Compartilhar</button>
+      </div>
+      <div class="cat-hero__row">
+        <div>
+          <h1>Kits de <em>casamento</em></h1>
+          <p>Kits completos para o grande dia — mesa, bolo fake, flores e tapete, tudo pronto para retirar e montar.</p>
+          <div class="cat-hero__meta" id="cat-count"></div>
+        </div>
+        <span class="cat-hero__icon" id="cat-icon" aria-hidden="true"></span>
+      </div>
+      <div class="filters" id="filters" role="group" aria-label="Filtrar kits" hidden></div>
+    </div>
+  </section>
+
+  <nav class="catnav" aria-label="Outros tipos de evento">
+    <div class="container"><div class="chips" id="chips"></div></div>
+  </nav>
+
+  <section>
+    <div class="container">
+      <div class="kits" id="kits"></div>
+      <div class="cta reveal" style="margin-top:40px">
+        <h2>Gostou de algum <em>kit</em>?</h2>
+        <p>Toque em "Quero este kit" ou chama a gente — ajustamos cores e detalhes para o seu evento.</p>
+        <a class="btn btn--wa" data-wa="geral" href="#" target="_blank" rel="noopener">Falar com a Mariana</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <img class="footer-logo" src="../assets/img/logo-icone.svg" alt="Sua Festa, Nossos Sonhos" width="45" height="58">
+    <div class="footer-links"><a data-insta href="#" target="_blank" rel="noopener">Instagram @suafestanossossonhos</a><a href="../">Todos os eventos</a></div>
+    <span class="footer-small"><span data-cidade></span> · © <span data-ano></span> Sua Festa, Nossos Sonhos</span>
+    <span class="credit">Desenvolvido por <a href="https://www.localtechbr.com/" target="_blank" rel="noopener">LocalTECH</a></span>
+  </div>
+</footer>
+
+<div class="helpbar"><p><b>Ficou com dúvida?</b>A Mariana te ajuda a escolher.</p><a href="#" target="_blank" rel="noopener">Chamar</a></div>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button type="button" class="lb-btn lb-close" aria-label="Fechar">×</button>
+  <div class="lb-stage">
+    <button type="button" class="lb-btn lb-prev" aria-label="Foto anterior">‹</button>
+    <img alt="">
+    <button type="button" class="lb-btn lb-next" aria-label="Próxima foto">›</button>
+  </div>
+  <div class="lb-bar"><h2 class="lb-title"></h2><a class="btn btn--wa lb-want" href="#" target="_blank" rel="noopener">Quero este kit</a></div>
+</div>
+
+<script src="../assets/kits.js"></script>
+<script src="../assets/app.js"></script>
+</body>
+</html>
