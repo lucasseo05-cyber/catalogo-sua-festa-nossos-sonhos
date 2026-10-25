@@ -73,6 +73,10 @@
     }
     // Hero arches: covers of the first three categories (icons until photos arrive)
     $$('.collage__arch').forEach(function (arch, i) {
+      // Fotos escolhidas para a capa (kits.js → capaHero): 1 = centro, 2 = esquerda, 3 = direita
+      var slot = +(arch.className.match(/--(\d)/) || [0, 0])[1];
+      var h = C.capaHero && C.capaHero[slot - 1];
+      if (h) { arch.innerHTML = '<img src="' + esc(base + h.foto) + '" alt="' + esc(h.alt || '') + '">'; return; }
       var cat = C.categorias[i];
       if (!cat) { return; }
       arch.setAttribute('data-tint', cat.slug);

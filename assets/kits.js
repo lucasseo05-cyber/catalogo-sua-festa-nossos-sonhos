@@ -24,6 +24,13 @@ window.CATALOGO = {
   instagram: 'https://www.instagram.com/suafestanossossonhos',
   cidade: 'São Caetano do Sul · ABC',
 
+  // Fotos da capa (topo da página central). Para trocar, coloque a foto em assets/img/hero/.
+  capaHero: [
+    { foto: 'assets/img/hero/hero-1.jpg', alt: 'Kit de casamento com arco floral e cortina de luzes' }, // centro
+    { foto: 'assets/img/hero/hero-2.jpg', alt: 'Kit de chá de bebê Oh Baby com urso' },              // esquerda
+    { foto: 'assets/img/hero/hero-3.jpg', alt: 'Kit de aniversário verde e dourado' }                  // direita
+  ],
+
   categorias: [
     {
       slug: 'casamento', nome: 'Casamento', emoji: '💍',
